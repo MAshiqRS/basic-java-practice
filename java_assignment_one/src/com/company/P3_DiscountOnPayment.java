@@ -5,7 +5,7 @@ package com.company;
 import java.lang.String;
 import java.util.*;
 
-public class DiscountOnPayment {
+public class P3_DiscountOnPayment {
     public static void main(String[] args) {
 
         Scanner a = new Scanner(System.in);

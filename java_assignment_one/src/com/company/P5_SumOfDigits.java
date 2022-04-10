@@ -6,15 +6,16 @@ package com.company;
 
 import java.util.*;
 
-public class SumOfDigits {
+public class P5_SumOfDigits {
     public static void main(String[] args) {
 
         System.out.println("Input Limit for Mathematical Approach is -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 .\nInput Limit for String Approach is Unlimited");
         System.out.println("Mathematical Approach do the sum until the result became a single digit\nString Approach do the sum Just for the given input Once.");
-        System.out.println("For mathematical approach Press 1.\nFor String approach Press 2.");
+        System.out.println("For Mathematical approach Press 1.\nFor String approach Press 2.");
         Scanner input = new Scanner(System.in);
         int  a= input.nextInt();
         if (a==1){
+            System.out.println("Please Enter a Number:");
             long number = input.nextLong();
             int  sum=0;
 
@@ -33,9 +34,10 @@ public class SumOfDigits {
                 number /= 10;
 //            System.out.println("n3 = "+number);
             }
-            System.out.println("sum of digits = "+sum);
+            System.out.println("Sum of Digits = "+sum);
         }
         else if( a==2){
+            System.out.println("Please Enter a Number:");
             String s = input.next();
             long sum=0;
             for(int i=0; i<s.length(); i++){
@@ -49,7 +51,7 @@ public class SumOfDigits {
             System.out.println(sum);
         }
         else {
-            System.out.println("Wrong input !!\n Please press only 1 or 2.");
+            System.out.println("Wrong input !!\n Please press only between 1 & 2.");
         }
 
     }

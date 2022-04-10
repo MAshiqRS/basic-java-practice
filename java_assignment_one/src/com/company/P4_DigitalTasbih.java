@@ -4,7 +4,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class DigitalTasbih {
+public class P4_DigitalTasbih {
     public static void main(String[] args) {
         System.out.println("If you need to count then Press 'Enter Key'");
         System.out.println("If you need reset counting then Press '0'");
